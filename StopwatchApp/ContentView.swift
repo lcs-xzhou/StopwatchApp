@@ -22,27 +22,19 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 
                 // Creat a circular button
-                ZStack {
+                HStack {
+                    CircleButtonView(
+                        buttonColor: .gray,
+                        label: "Reset",
+                        labelColor: .white)
                     
-                    // First layer
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 100)
+                    Spacer()
                     
-                    // Second layer
-                    Circle()
-                        .foregroundColor(.black)
-                        .frame(width: 93)
-                    
-                    // Third layer
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width: 89)
-                    
-                    // Fourth layer
-                    Text("Reset")
-                        .foregroundColor(.white)
-                        .font(.title2)
+                    CircleButtonView(
+                        buttonColor: .brown,
+                        label: "Start",
+                        labelColor: .green
+                    )
                 }
             }
             .padding()

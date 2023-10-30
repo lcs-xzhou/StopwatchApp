@@ -11,6 +11,7 @@
 		2D24ACF02AF02DD8008800D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D24ACEF2AF02DD8008800D0 /* ContentView.swift */; };
 		2D24ACF22AF02DDA008800D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D24ACF12AF02DDA008800D0 /* Assets.xcassets */; };
 		2D24ACF52AF02DDA008800D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D24ACF42AF02DDA008800D0 /* Preview Assets.xcassets */; };
+		2D24ACFC2AF03784008800D0 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D24ACFB2AF03784008800D0 /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2D24ACEF2AF02DD8008800D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D24ACF12AF02DDA008800D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D24ACF42AF02DDA008800D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D24ACFB2AF03784008800D0 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				2D24ACEF2AF02DD8008800D0 /* ContentView.swift */,
 				2D24ACF12AF02DDA008800D0 /* Assets.xcassets */,
 				2D24ACF32AF02DDA008800D0 /* Preview Content */,
+				2D24ACFB2AF03784008800D0 /* CircleButtonView.swift */,
 			);
 			path = StopwatchApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D24ACFC2AF03784008800D0 /* CircleButtonView.swift in Sources */,
 				2D24ACF02AF02DD8008800D0 /* ContentView.swift in Sources */,
 				2D24ACEE2AF02DD8008800D0 /* StopwatchAppApp.swift in Sources */,
 			);
