@@ -42,20 +42,49 @@ struct ContentView: View {
                 
                 // List of times
                 List {
-                    Text("1")
-                    Text("2")
-                    Text("3")
-                    Text("4")
-                    Text("5")
+                    Group {
+                        ListView(
+                            text1: "Lap 5",
+                            text2: "00:00.98",
+                            textColor: .white
+                        )
+                        ListView(
+                            text1: "Lap 4",
+                            text2: "00:04.08",
+                            textColor: Color("Dark Red 1")
+                        )
+                        ListView(
+                            text1: "Lap 3",
+                            text2: "00:00.96",
+                            textColor: Color("Dark Green 1")
+                        )
+                        ListView(
+                            text1: "Lap 2",
+                            text2: "00:02.76",
+                            textColor: .white
+                        )
+                        ListView(
+                            text1: "Lap 1",
+                            text2: "00:01.16",
+                            textColor: .white
+                        )
+                    }
+                    // Remove inset from list items
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
+                // Adjust the color of the separator to match the design
+                .listRowSeparatorTint(Color("Black Gray"))
+                // Adjust the size of the texts
+                .font(.system(size: 20))
                 // Set the amount of vertical height we want this list to take up
-                .frame(height: 300)
+                .frame(height: 265)
+                // Adjust list style to match design
+                .listStyle(.plain)
+                    }
             }
-            .padding()
         }
     }
-}
-
+    
 #Preview {
     TabView(selection: Binding.constant(3)) {
         

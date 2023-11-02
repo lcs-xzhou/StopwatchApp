@@ -43,14 +43,12 @@ struct CircleButtonView: View {
     }
 }
 
-struct CircleButtonView_Previews: PreviewProvider {
-    static var previews: some View {
+#Preview {
         CircleButtonView(
             buttonColor: .gray,
             label: "Reset",
             labelColor: .white)
     }
-}
 #Preview {
     ContentView()
 }
